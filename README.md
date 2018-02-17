@@ -1,6 +1,6 @@
 ## Playing with Ionic, Lumen, Firebase, Google maps, Raspberry Pi and background geolocation.
 
-I wanna do a simple pet project. The idea is to build a mobile application. This application will track my gps location and send this information to a Firebase database. I've never play with Firebase and I want to learn a little bit. With this information I will build a simple web application hosted in my Raspberry py. This web application will show a Google map with my last location. I will put this web application in my TV and anyone in my house will see where I am every time.
+I wanna do a simple pet project. The idea is to build a mobile application. This application will track my gps location and send this information to a Firebase database. I've never play with Firebase and I want to learn a little bit. With this information I will build a simple web application hosted in my Raspberry Pi. This web application will show a Google map with my last location. I will put this web application in my TV and anyone in my house will see where I am every time.
 
 That's the idea. I want a MVP. First the mobile application. I will use ionic framework. 
 The mobile application is very simple it only has a toggle to activate-deactivate the background geolocation (sometimes I don't want to be tracked :).
