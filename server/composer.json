@@ -1,0 +1,19 @@
+{
+    "require": {
+        "laravel/lumen": "^5.5",
+        "kreait/firebase-php": "^3.7"
+    },
+    "autoload-dev": {
+        "classmap": [
+            "tests/"
+        ]
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "optimize-autoloader": true
+}

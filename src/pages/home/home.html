@@ -1,0 +1,22 @@
+<ion-header>
+    <ion-navbar>
+        <ion-title>
+            Ionic Blank
+        </ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-header>
+    <ion-toolbar [color]="toolbarColor">
+        <ion-title>{{title}}</ion-title>
+        <ion-buttons end>
+            <ion-toggle color="light"
+                        checked="{{isBgEnabled}}"
+                        (ionChange)="changeWorkingStatus($event)">
+            </ion-toggle>
+        </ion-buttons>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+</ion-content>
